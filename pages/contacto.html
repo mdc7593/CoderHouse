@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Tragos MDC</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Barra de Tragos MDC</h1>
+        <div class="logo">
+            <img src="../img/Tarjeta barras de tragos (diseño nuevo).jpg" alt="">
+            <!--Aquí va un Logo de presentación y al lado la fecha/calendario-->
+        </div>
+        <main>
+            <div id="cajaMenu">
+                <nav class="navegadorMenu">
+                    <ul class="listasMenu">
+                        <li class="item-ini"> <a href="../index.html">Inicio</a> </li>
+                        <li class="item-nos"> <a href="./nosotros.html">Nosotros</a> </li>
+                        <li class="item-ser"> <a href="./servicios.html">Servicios</a> </li>
+                        <li class="item-coc"> <a href="./cocktails.html">Cocktails</a> </li>
+                        <li class="item-con"> <a href="#">Contacto</a></a> </li>
+
+                    </ul>
+            </div>
+        </main>
+        </nav>
+
+    </header>
+    <main>
+        <h2>Consultas y presupuestos</h2>
+        <p>Complete el siguiente formulario</p>
+        <form action method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Mauricio">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Di Carlo">
+                <label for="edad">¿Cuántos años cumple?</label>
+                <input type="number" name="edad" id="edad" min="1" max="99">
+                <input class="textoparaescribir" type="text" name="Escribir aquí">
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+
+<footer>
+    <iframe class="mapadeubicacion"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.8525786787372!2d-57.59408468414255!3d-38.003898952720846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584ded34dced1bb%3A0xc5217185ce746033!2sLos%20Aromos%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1651532600940!5m2!1ses!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="direccionMapa"> Los Aromos 5582, Mar del Plata, Buenos Aires, Argentina</div>
+    <div class="textoUbicacion"> <a
+            href="http://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.8525786787372!2d-57.59408468414255!3d-38.003898952720846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584ded34dced1bb%3A0xc5217185ce746033!2sLos%20Aromos%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1651532600940!5m2!1ses!2sar">Ubicación</a>
+
+    </div>
+
+    <div class="redesSociales">
+
+        <a href="http://www.facebook.com/BarraDeTragosMDC/">
+            <img class="fb" src="../img/facebook.png" alt=></a>
+
+        <a href="http://www.instagram.com/BarraDeTragosMDC/">
+            <img class="inst" src="../img/instagram.png" alt=></a>
+
+        <a href="https://wa.me/+5492236815980?text=¡Estoy+interesado!">
+            <img class="wts" src="../img/whatsapp.png" alt=></a>
+    </div>
+</footer>
+
+</html>
