@@ -307,7 +307,7 @@ opacity: 1;
     }
 
 .mapadeubicacion, .fb, .inst, .wts {
-    margin: 1em;
+    margin: 8em;
     padding: 1em;
     color: white;
     float: left;
@@ -422,7 +422,7 @@ align-items: center;
 
 
 /*Desktop*/
-@media and (min-width:969px) {
+@media  screen and (min-width:969px) {
     .grid_container{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -446,7 +446,7 @@ align-items: center;
         width: auto;
         gap: 5px;
         grid-template-columns: (5, 1fr);
-        grid-template-rows: (5, auto)
+        grid-template-rows: (5, auto);
         grid-template-areas: "header header"
                           "cajaMenu listasMenu"
                           "fotoPresentacion container"
