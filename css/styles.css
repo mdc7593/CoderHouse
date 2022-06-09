@@ -251,6 +251,12 @@ opacity: 1;
     align-items: center;
 }
 
+.piedepagina {
+    display: inline-flex;
+    text-align: justify;
+}
+
+
 .mapadeubicacion{
     height: 250px;
     width: 250px;
