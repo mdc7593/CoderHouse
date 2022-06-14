@@ -252,8 +252,8 @@ opacity: 1;
 }
 
 .piedepagina {
-    display: inline-flex;
-    text-align: justify;
+    display: flex;
+   justify-content: flex-end;
 }
 
 
@@ -421,7 +421,7 @@ align-items: center;
 }
 
 
-/*Desktop*/
+/*Desktop
 @media  screen and (min-width:969px) {
     .grid_container{
         display: grid;
@@ -485,6 +485,11 @@ align-items: center;
             align-items: center;
         }
         
+        .piedepagina {
+            display: flex;
+           justify-content: flex-end;
+        }
+
         .fb,.inst, .wts{
             height: 100px;
             width: 100px;
@@ -501,7 +506,7 @@ align-items: center;
         
         .redesSociales{
             float: right;
-            margin: 20px;
+            margin: 90px;
             }
         
         .mapadeubicacion, .fb, .inst, .wts {
@@ -510,7 +515,9 @@ align-items: center;
             float: left;
         }
 
-    }
+
+
+    }*/
 
 
 
