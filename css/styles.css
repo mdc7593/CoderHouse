@@ -10,7 +10,7 @@ h1{
     background: linear-gradient(#6A040F, #fff);
     -webkit-background-clip: text;
    position: relative; 
-   &:after{
+   /*&:after{
        content: "Barra de tragos MDC";
        position: absolute;
        width: 100%;
@@ -18,7 +18,7 @@ h1{
        left: 3px;
        color: #000;
        z-index: -1;
-    }
+    }*/
 }
 
 .logo{
@@ -426,7 +426,7 @@ align-items: center;
     .grid_container{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         column-gap: 0px;
         row-gap: 0px;
         grid-template-areas: "nav nav nav nav nav"
@@ -453,8 +453,8 @@ align-items: center;
                           "footer footer"
 
     }
-    .footer{
-        .mapadeubicacion {
+    .footer, .mapadeubicacion{
+        
             height: 250px;
             width: 250px;
             margin-top: 10px;
@@ -462,7 +462,7 @@ align-items: center;
             margin-bottom: 10px;
             margin-right: 10px;
             display: flex;
-            justify-content: center;
+            justify-content: (center);
             align-items: center;
         }
         
@@ -471,7 +471,7 @@ align-items: center;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-transform: uppercase;
             margin-left: 30px;
-            margin: 100px;
+            margin: 35px;
         }
         .direccionMapa{
             color: #8c011c;
@@ -501,17 +501,17 @@ align-items: center;
         
         .redesSociales{
             float: right;
+            margin: 20px;
             }
         
         .mapadeubicacion, .fb, .inst, .wts {
-            margin: 1em;
-            padding: 1em;
+            margin: 25px;            
             color: white;
             float: left;
         }
 
     }
-}
+
 
 
 
