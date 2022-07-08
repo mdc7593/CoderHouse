@@ -1,3 +1,5 @@
+@import 'variables'; 
+
 h1{
     color: transparent;
     margin: 10px;
@@ -5,7 +7,7 @@ h1{
     font-size: 5em;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(#6A040F, #fff);
+    background: linear-gradient($color-fondos-y-textos, #fff);
     -webkit-background-clip: text;
    position: relative;
 }
@@ -43,7 +45,7 @@ main{
 
 }
 #cajaMenu{
-    background-color: #6A040F;
+    background-color: $color-fondos-y-textos;
     color: white;
 }
 
@@ -92,7 +94,7 @@ li{
 
 
 h2{
-    color: brown;
+    color: $color-fondos-y-textos;
     font-size: 3em;
     font-style: italic;
 }
@@ -195,7 +197,7 @@ opacity: 1;
              display: block;
             color: white;
              text-decoration: none;
-             background-color: #6A040F;
+             background-color: $color-fondos-y-textos;
              padding: 10px;
              width: 20px;
              height: 20px;
@@ -252,14 +254,14 @@ opacity: 1;
 }
 
 .direccionMapa{
-    color: #6A040F;
+    color: $color-fondos-y-textos;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     margin-left: 30px;
     margin: 100px;
 }
 .direccionMapa{
-    color: #8c011c;
+    color: $color-fondos-y-textos;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 250px;
     width: 250px;
@@ -372,7 +374,7 @@ align-items: center;
 
 /*media querys*/
 /*Mobile*/
-@media screen and (max-width:480px) {
+@media screen and (max-width: $sm) {
     .grid_container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -388,7 +390,7 @@ align-items: center;
 
 
 /*Tablet*/
-@media screen and (min-width:481px) and (max-width:968px) {
+@media screen and (min-width:481px) and (max-width: $md) {
         .grid_container{
         display: grid; 
         grid-template-columns: repeat(4, 1fr);
