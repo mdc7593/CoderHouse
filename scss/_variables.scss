@@ -7,3 +7,11 @@ $thumbnail-box-shadow:              $box-shadow-sm;
 
 $color-fondos-y-textos:             #6A040F;
 $color-redes: (twitter: #00acee, facebook: #3b5998, instagram: #dd2a7b, youtube: #c4302b, whatsapp:#00bb2d);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
