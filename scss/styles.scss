@@ -238,7 +238,7 @@ opacity: 1;
     align-items: center;
 }
 }
-/*
+
 .piedepagina {
     display: flex;
    justify-content: flex-end;
@@ -298,7 +298,7 @@ opacity: 1;
     color: white;
     float: left;
 }
-}*/
+}
 /*nosotros*/
 
 .sirviendoDaiquiri {
@@ -382,6 +382,18 @@ align-items: center;
         padding: $thumbnail-padding;
         box-shadow: $thumbnail-box-shadow;
     }
+    /*Cocktails*/
+.foto7, .foto8, .foto9, .foto10{
+    height: 50%;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 
@@ -392,4 +404,16 @@ align-items: center;
         padding: $thumbnail-padding;
         box-shadow: $thumbnail-box-shadow;
     }
+    /*Cocktails*/
+.foto7, .foto8, .foto9, .foto10{
+    height: 50%;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
